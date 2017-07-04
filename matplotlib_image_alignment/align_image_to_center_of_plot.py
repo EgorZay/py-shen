@@ -10,7 +10,8 @@ def get_image_size(fname):
     '''Determines the image type of fhandle and returns its size in pixels.
     Input: ``fname`` -- path to file;
     Returns: tuple of width and height of an ``fname``.
-    from draco'''
+    from draco and originated from:
+    https://stackoverflow.com/a/20380514/6412997'''
     with open(fname, 'rb') as fhandle:
         head = fhandle.read(24)
         if len(head) != 24:
