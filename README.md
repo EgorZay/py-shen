@@ -24,4 +24,4 @@ Basically, the algorithm is the following:
 
 7. Repeats until deadend. Prints runtime
 
-E.
+Downside: really memory-consuming
